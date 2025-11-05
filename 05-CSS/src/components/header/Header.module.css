@@ -1,0 +1,16 @@
+.header{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color:chartreuse;
+    color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
