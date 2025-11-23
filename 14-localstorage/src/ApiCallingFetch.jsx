@@ -2,15 +2,13 @@ import React from "react";
 
 const ApiCalling = () => {
   // Using fetch
-  async function getData() {
-    const response = await fetch(
-      "https://jsonplaceholder.typicode.com/todos/1"
-    );
+  const getData = async () => {
+    const response = await fetch("https://jsonplaceholder.typicode.com/users");
     console.log(response);
 
-    //   const json = await response.json()
-    //   console.log(json)
-  }
+    // const json = await response.json();
+    // console.log(json);
+  };
 
   return (
     <div>

@@ -1,5 +1,6 @@
 import React from "react";
-import ApiCalling from "./ApiCalling";
+import ApiCallingFetch from "./ApiCallingFetch";
+import ApiCallingAxios from "./ApiCallingAxios";
 
 const App = () => {
   localStorage.setItem("user", "Masud");
@@ -32,7 +33,8 @@ const App = () => {
   return (
     <div>
       local storage
-      <ApiCalling />
+      {/* <ApiCallingFetch /> */}
+      <ApiCallingAxios />
     </div>
   );
 };
